@@ -1,0 +1,61 @@
+#header {
+    background-image: url(./pattern.jpeg);
+    color: khaki;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+strong {
+    color: blue;
+}
+
+.hover-text {
+    /* Initial size and display setting */
+    font-size: 1em; 
+    display: inline-block; /* Required for transform to work correctly on inline elements */
+    
+    /* Smooth transition for the 'transform' property over 0.3 seconds */
+    transition: transform 0.3s ease; 
+    
+    /* Optional: change cursor to pointer to indicate interactivity */
+    cursor: pointer; 
+}
+
+.hover-text:hover {
+    /* Make the text 1.3 times (30%) bigger on hover */
+    transform: scale(1.1); 
+}
+
+.title {
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+}
+
+.brushes {
+    background-color: aqua;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.brushes:hover {
+    background-color: red;
+}
